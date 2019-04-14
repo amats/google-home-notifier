@@ -1,12 +1,12 @@
 {
-  "name": "google-home-notifier",
-  "version": "1.2.0",
-  "description": "",
+  "name": "google-home-notifier-again",
+  "version": "1.0.0",
+  "description": "forked from noelportugal/google-home-notifier",
   "main": "google-home-notifier.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Noel Portugal",
+  "author": "Akira Matsushita",
   "keywords": [
     "google home",
     "notifications",
@@ -14,11 +14,11 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.15.2",
-    "castv2-client": "^1.1.2",
-    "express": "^4.14.0",
-    "google-tts-api": "0.0.2",
-    "mdns": "^2.3.3",
-    "ngrok": "^2.2.4"
+    "body-parser": "^1.18.3",
+    "castv2-client": "^1.2.0",
+    "express": "^4.16.4",
+    "google-tts-api": "0.0.4",
+    "mdns-js": "^1.0.3",
+    "ngrok": "^3.1.1"
   }
 }
